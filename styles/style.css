@@ -279,6 +279,7 @@
   }
   .banner-image {
     max-width: 336px;
+    height: auto;
   }
   .card-container {
     flex-direction: column;
