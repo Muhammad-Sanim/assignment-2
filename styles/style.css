@@ -142,9 +142,17 @@
 .cur-card p span {
   font-weight: 700;
 }
+ .previous-next-btn {
+  max-width: 60px;
+  justify-content: center;
+  gap: 10px;
+ }
 
 /* Media Query Section */
 @media screen and (max-width: 576px) {
+  body {
+    max-width: 100%;
+  }
   .navbar {
     border-bottom: 0.5px solid rgb(254, 163, 1);
     flex-direction: row;
@@ -154,7 +162,8 @@
   }
   .heading,
   .nav-link-container,
-  .nav-btn-container {
+  .nav-btn-container,
+  .previous-next-btn {
     display: none;
   }
   .menu-icon {
@@ -178,6 +187,9 @@
     flex-direction: column;
     margin: 0 auto;
     width: 100% auto;
+  }
+  .cur-heading {
+    font-size: 1.625rem;
   }
 }
 
